@@ -80,15 +80,15 @@ h3{
     padding: 5%;
 }
 
-.feature-box > p{
+.feature-box p{
     color: #8f8f8f;
 }
 
-.feature-box > i{
+.feature-box i{
     color: #ef8172;
     padding-bottom: 1rem;
 }
-.feature-box > i:hover{
+.feature-box i:hover{
     color: #ff4c68;
 }
 
@@ -146,6 +146,30 @@ h2{
     padding: 3%;
 }
 
+/*CTA*/
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+#cta > h3{
+    font-size: 3rem;
+}
+
+
+/*Footer*/
+
+#footer{
+    background-color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+#footer i{
+    padding:10px 5px;
+}
 
 @media screen and (max-width: 820px) {
     .title-image{
