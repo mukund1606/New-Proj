@@ -1,193 +1,213 @@
-body{
-    font-family: 'Montserrat';
+body {
+	font-family: 'Montserrat';
+	text-align: center;
 }
 
-#title{
-    color: #ffffff;
-    background-color: #ff4c68;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 700;
 }
 
-.container-fluid{
-    padding: 3% 15%;
+p {
+	color: #8f8f8f;
 }
 
-h1 {
-    font-size: 3.5rem;
-    line-height: 1.5;
-    font-weight: 900;
+/*Headings*/
+.big-heading {
+	line-height: 1.5;
+	font-size: 3.5rem;
+	font-weight: 900;
 }
 
+.section-heading {
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+
+/*Padding*/
+.container-fluid,
+.carousel-item {
+	padding: 7% 15%;
+}
+
+
+/*Title*/
+
+#title {
+	background-color: #ff4c68;
+	color: #ffffff;
+	position: relative;
+	text-align: left;
+}
+
+#title .container-fluid {
+	padding: 3% 15% 7%;
+}
 
 /*Navigation Bar*/
 
-.navbar-brand{
-    font-family: 'Ubuntu';
-    font-size: 2.5rem;
-    font-weight: bold;
+.navbar-brand {
+	font-family: 'Ubuntu';
+	font-size: 2.5rem;
+	font-weight: bold;
 }
 
-.navbar{
-    padding-bottom: 4.5rem;
+.navbar {
+	padding-bottom: 4.5rem;
 }
 
-.nav-item{
-    padding: 0 18px;
+.nav-item {
+	padding: 0 18px;
 }
 
-.nav-link{
-    font-size: 1.2rem;
-    font-weight: 100;
+.nav-link {
+	font-size: 1.2rem;
+	font-weight: 100;
 }
 
 /*Download Button*/
 
-.download-button{
-    margin: 5% 3% 5% 0;
+.download-button {
+	margin: 5% 3% 5% 0;
 }
 
-#title{
-    z-index: 1;
+#title {
+	position: relative;
+	z-index: 1;
 }
 
-section{
-    position: relative;
-}
+
 
 /*Title Image*/
-.title-image{
-    margin-left: 8rem;
-    width: 60%;
-    transform: rotate(25deg);
-    z-index: -1;
+.title-image {
+	margin-left: 8rem;
+	width: 60%;
+	transform: rotate(25deg);
+	z-index: -1;
 }
 
 /*Feature Section*/
 
-#features{
-    margin-top: -15rem;
-    background-color: white;
-    z-index: 99;
-    padding: 7% 15%;
+#features {
+	position: relative;
+	margin-top: -15rem;
+	background-color: white;
+	z-index: 99;
 }
 
-h3{
-    font-weight: 900;
+.feature-title {
+	font-size: 1.5rem;
 }
 
-.feature-box{
-    font-size: 1rem;
-    text-align: center;
-    padding: 5%;
+.feature-box {
+	font-size: 1rem;
+	padding: 5%;
 }
 
-.feature-box p{
-    color: #8f8f8f;
+.feature-box i {
+	color: #ef8172;
+	padding-bottom: 1rem;
 }
 
-.feature-box i{
-    color: #ef8172;
-    padding-bottom: 1rem;
-}
-.feature-box i:hover{
-    color: #ff4c68;
+.feature-box i:hover {
+	color: #ff4c68;
 }
 
 /*Testimonil Section*/
 
-#testimonials{
-    padding: 7% 15%;
-    text-align: center;
-    background-color: #ef8172;
-    color: #fff;
+#testimonials {
+	position: relative;
+	background-color: #ef8172;
+	color: #fff;
 }
 
-h2{
-    font-weight: 900;
-    font-size: 2.5rem;
-    line-height: 1.5;
+.testimonial-text {
+	font-size: 3rem;
+	line-height: 1.5;
 }
 
-.testimonial-image{
-    width: 10%;
-    border-radius: 100%;
-    margin: 20px;
+
+.testimonial-image {
+	width: 10%;
+	border-radius: 100%;
+	margin: 20px;
 }
 
-.carousel-item{
-    padding: 7% 15%;
+#press {
+	position: relative;
+	background-color: #ef8172;
+	padding-bottom: 3%;
 }
 
-#press{
-    background-color: #ef8172;
-    text-align: center;
-    padding-bottom: 3%;
-}
-
-.press-logo{
-    width: 15%;
-    margin: 20px 20px 50px;
+.press-logo {
+	width: 15%;
+	margin: 20px 20px 50px;
 }
 
 
 
 /*Pricing Section*/
-#pricing{
-    padding: 6rem;
-    /* width: 60%; */
-    /* margin: auto; */
-    text-align: center;
+#pricing {
+	position: relative;
+	padding: 6rem;
 }
 
-.card{
-    padding: 0;
+.price-text {
+	font-size: 3rem;
+	line-height: 1.5;
 }
 
-.pricing-column{
-    padding: 3%;
+.card {
+	padding: 0;
+}
+
+.pricing-column {
+	padding: 3%;
 }
 
 /*CTA*/
-#cta{
-    background-color: #ff4c68;
-    color: #fff;
-    padding: 7% 15%;
-    text-align: center;
-}
-
-#cta > h3{
-    font-size: 3rem;
+#cta {
+	position: relative;
+	background-color: #ff4c68;
+	color: #fff;
 }
 
 
 /*Footer*/
 
-#footer{
-    background-color: #fff;
-    padding: 7% 15%;
-    text-align: center;
+#footer {
+	position: relative;
+	background-color: #fff;
 }
 
-#footer i{
-    padding:10px 5px;
+#footer i {
+	padding: 10px 5px;
 }
 
 @media screen and (max-width: 820px) {
-    .title-image{
-        transform: rotate(0);
-        margin: auto;
-        margin-top: 5rem;
-        width: 100%;
-    }
-    #features{
-        margin-top: -7rem;
-    }
-    #pricing{
-        padding: 2rem;
-    }
+	.title-image {
+		transform: rotate(0);
+		margin: auto;
+		margin-top: 5rem;
+		width: 100%;
+	}
+
+	#features {
+		margin-top: -7rem;
+	}
+
+	#pricing {
+		padding: 2rem;
+	}
 }
 
 @media screen and (max-width: 400px) {
-    h1{
-        font-size: 3rem;
-    }
+	h1 {
+		font-size: 3rem;
+	}
 }
